@@ -1,4 +1,4 @@
-const apiKey = // Removed for public repository
+const apiKey = 'VJlrfqoW1sjFQl3qXaJQOo-evyLFDV_83JMPBz0YZ7Ru1RP9inFIxsKHTHdDFQB912_cqyzdNI0lsQVcXlLJOqQnTBJxYjmAPGiOSy5XEldEwA4ynzrzTuwyEfoQY3Yx'
 
 const Yelp = {
     search(term, location, sortBy) {
