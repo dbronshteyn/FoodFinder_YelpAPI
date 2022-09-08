@@ -1,8 +1,8 @@
-const apiKey = 'VJlrfqoW1sjFQl3qXaJQOo-evyLFDV_83JMPBz0YZ7Ru1RP9inFIxsKHTHdDFQB912_cqyzdNI0lsQVcXlLJOqQnTBJxYjmAPGiOSy5XEldEwA4ynzrzTuwyEfoQY3Yx'
+const apiKey = // Removed for public repository
 
 const Yelp = {
     search(term, location, sortBy) {
-        // The duration of using CORS anywher may expire, visit link in Codecademy to re-enable it
+        // The duration of using CORS anywhere may expire, visit link in Codecademy to re-enable it
         return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
             headers: {
             Authorization: `Bearer ${apiKey}`
